@@ -1,0 +1,12 @@
+# Jednolite końce linii (LF) niezależnie od systemu, żeby diffy i testy porównujące pliki były stabilne.
+* text=auto eol=lf
+
+*.pdf  binary
+*.png  binary
+*.jpg  binary
+*.ttf  binary
+*.otf  binary
+*.woff2 binary
+*.bat  text eol=crlf
+*.cmd  text eol=crlf
+*.ps1  text eol=crlf

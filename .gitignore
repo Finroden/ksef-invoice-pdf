@@ -1,0 +1,21 @@
+# Maven / Java
+target/
+*.class
+*.log
+
+# Wygenerowane dokumenty (do repo trafiają tylko wybrane przykłady w examples/)
+output/
+
+# Testy regresji wizualnej: wyniki porównań (wzorce są commitowane)
+**/visual-diff/
+
+# IDE i system
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Sekrety
+.env*
+!.env.example
